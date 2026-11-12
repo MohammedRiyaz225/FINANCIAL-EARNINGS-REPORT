@@ -3,8 +3,7 @@
 
 ---
 
-### Project Title
-**FINANCIAL EARNINGS REPORT ANALYSIS DESK**
+### Project Title: **FINANCIAL EARNINGS REPORT ANALYSIS DESK**
 
 ### Objective
 To design, build, and demonstrate a production-ready multi-agent system that automates an enterprise workflow, by applying a defined coordination architecture, framework-based agent development (Microsoft Agent Framework / Semantic Kernel pattern), grounded retrieval and shared memory, and collaborative task execution across specialized agents.
