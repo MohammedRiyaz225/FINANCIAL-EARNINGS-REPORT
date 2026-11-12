@@ -8,14 +8,6 @@
 
 ### Objective
 To design, build, and demonstrate a production-ready multi-agent system that automates an enterprise workflow, by applying a defined coordination architecture, framework-based agent development (Microsoft Agent Framework / Semantic Kernel pattern), grounded retrieval and shared memory, and collaborative task execution across specialized agents.
-
-### Group Members
-| Registration Number | Roll Number | Student Name |
-|---|---|---|
-| *Registration Number 1* | *Roll Number 1* | *Student Name 1* |
-| *Registration Number 2* | *Roll Number 2* | *Student Name 2* |
-| *Registration Number 3* | *Roll Number 3* | *Student Name 3* |
-
 ---
 
 ## Agent Roster
