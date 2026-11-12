@@ -1,5 +1,5 @@
 # Financial Earnings Report Analysis Desk (FERAD)
-## Group 9 — Multi-Agent System Documentation
+## Multi-Agent System Documentation
 
 ---
 
