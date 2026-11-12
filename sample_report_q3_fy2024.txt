@@ -1,0 +1,86 @@
+APEX TECHNOLOGIES INC.
+Q3 FY2024 EARNINGS REPORT
+For the Quarter Ended September 30, 2024
+
+FINANCIAL HIGHLIGHTS
+
+Revenue and Profitability
+
+Apex Technologies Inc. reported total revenues of $8.62 billion for the third quarter of fiscal year 2024, representing a year-over-year growth of 18.4% compared to $7.28 billion in Q3 FY2023. The strong revenue performance was driven by continued demand for cloud infrastructure and enterprise software solutions.
+
+Gross profit for Q3 FY2024 was $5.51 billion, reflecting a gross margin of 63.9%, up from 61.2% in the prior-year quarter. This margin expansion was primarily attributable to scale efficiencies in our cloud segment and a favorable product mix shift toward higher-margin software offerings.
+
+Operating income was $1.98 billion for the quarter, resulting in an operating margin of 22.9%. This compares to operating income of $1.54 billion and an operating margin of 21.2% in Q3 FY2023, reflecting disciplined expense management despite continued investment in research and development.
+
+Net income for the quarter was $1.67 billion, up from $1.21 billion in Q3 FY2023. Diluted earnings per share (EPS) was $3.24, compared to $2.34 per diluted share in the prior-year period.
+
+Free cash flow for Q3 FY2024 was $2.34 billion, a 27% increase year-over-year, driven by strong operating cash generation and prudent capital expenditure discipline.
+
+Segment Performance
+
+Cloud Services revenue grew 31.2% year-over-year to $4.18 billion, now representing 48.5% of total company revenue. Annualized run rate surpassed $16.7 billion for the first time.
+
+Enterprise Software revenue increased 12.6% to $2.94 billion. Strong renewal rates of 96.4% and expansion activity drove recurring revenue growth.
+
+Hardware & Devices revenue declined 4.8% to $1.50 billion due to component shortages and challenging macroeconomic conditions affecting consumer and enterprise hardware spending.
+
+RISK FACTORS AND CHALLENGES
+
+Competition and Market Headwinds
+
+Apex Technologies faces intense competition from established and emerging cloud providers. Competitive pressure on pricing has intensified, particularly in mid-market cloud offerings. Management acknowledges that the current challenging macroeconomic environment may dampen enterprise IT spending in the near term.
+
+Currency headwinds reduced reported revenue by approximately $142 million, or 1.7 percentage points of growth, as the U.S. dollar strengthened against key currencies including the Euro and Japanese Yen.
+
+Supply Chain and Operational Risks
+
+The company continues to experience supply chain disruptions in its Hardware & Devices segment. Rising input costs for semiconductor components have contributed to gross margin pressure in hardware, partially offsetting gains in cloud and software margins.
+
+Regulatory and Legal Matters
+
+Apex Technologies is subject to an ongoing regulatory investigation by the European Commission regarding certain cloud licensing practices. Management does not expect the investigation to result in material financial liability, though the outcome remains uncertain. Legal and compliance costs increased 23% year-over-year to $87 million.
+
+A class-action lawsuit was filed in September 2024 regarding alleged data privacy violations related to Apex's consumer services platform. The company has denied all allegations and is vigorously defending against the claims.
+
+Debt and Capital Structure
+
+The company holds $14.2 billion in long-term debt, with $2.8 billion maturing within the next 12 months. The company's credit facility of $5 billion remains undrawn. Management indicated the company plans to refinance the near-term maturities through a combination of cash and capital markets activity.
+
+Declining revenue in the Hardware segment represents a concerning trend that management acknowledged may reflect structural rather than cyclical demand weakness.
+
+FORWARD GUIDANCE AND OUTLOOK
+
+Revenue Guidance
+
+For Q4 FY2024, Apex Technologies expects total revenue in the range of $9.1 billion to $9.4 billion, implying year-over-year growth of 15% to 19%. Management remains confident in the strong demand for cloud services and enterprise software going into the holiday season and fiscal year-end enterprise spending cycle.
+
+Full-year FY2024 revenue guidance was raised to $33.8 billion to $34.2 billion, up from the prior guidance of $33.2 billion to $33.8 billion, reflecting the strong Q3 performance and confidence in the business trajectory.
+
+EPS Guidance
+
+For Q4 FY2024, the company expects diluted EPS in the range of $3.40 to $3.55, reflecting continued investment in AI and cloud infrastructure. Full-year FY2024 diluted EPS guidance was raised to $12.80 to $12.95 per share.
+
+Strategic Priorities and Growth Drivers
+
+Management highlighted several key growth opportunities for the remainder of FY2024 and into FY2025:
+
+The company will accelerate investment in artificial intelligence and machine learning capabilities, with plans to launch three new AI-powered enterprise software products in Q4. The AI business pipeline has grown 85% year-over-year, representing a significant long-term growth opportunity.
+
+New partnerships with major telecommunications providers are expected to drive strong demand for edge computing solutions. The company announced strategic partnerships with two Fortune 500 companies during the quarter.
+
+International expansion remains a priority, with revenue outside North America growing 22.1% year-over-year. The company plans to expand into two new markets in Southeast Asia in the first half of FY2025, targeting an addressable market of $4.2 billion.
+
+R&D investment will increase to approximately $1.1 billion per quarter in FY2025, up from $870 million in Q3 FY2024, to fund next-generation cloud infrastructure and AI model development.
+
+Management Cautionary Remarks
+
+Despite the positive outlook, management noted several areas of uncertainty. Macroeconomic uncertainty, particularly related to inflation and potential interest rate changes in the U.S. and Europe, could create headwinds for enterprise IT spending in calendar year 2025. Management expressed caution about the pace of recovery in the hardware segment, noting that demand weakness may persist through at least Q2 FY2025.
+
+The company acknowledged that foreign exchange headwinds are expected to continue into Q4 FY2024 and that this presents ongoing uncertainty in the reported revenue figures.
+
+CONCLUSION
+
+Apex Technologies delivered a strong Q3 FY2024 with record revenue, expanding margins, and robust free cash flow generation. The company's pivot toward cloud and AI-driven services continues to accelerate, positioning it well for long-term growth despite near-term macroeconomic and competitive headwinds. Management's raised full-year guidance reflects confidence in the company's strategic positioning, though investors should carefully monitor the hardware segment's trajectory, regulatory proceedings, and currency impacts in the coming quarters.
+
+END OF Q3 FY2024 EARNINGS REPORT
+Apex Technologies Inc. | Investor Relations Department
