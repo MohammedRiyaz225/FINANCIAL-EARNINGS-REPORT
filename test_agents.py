@@ -124,7 +124,7 @@ class TestScenario1StrongReport:
         risk_agent = RiskAnalyst(strong_memory)
         report = risk_agent.run()
         # Strong report should show low or moderate risk (not high)
-        assert "🔴 HIGH RISK" not in report or "Competition" in report
+        assert "HIGH RISK" not in report or "Competition" in report
 
     def test_outlook_analyst_positive(self, strong_memory):
         ExtractionAgent(strong_memory).run()
@@ -317,7 +317,7 @@ class TestScenario3ComparisonAndPipeline:
             risk_section="## Risk Analysis\nLow risk detected.\n",
             outlook_section="## Outlook & Forward Guidance\nPositive outlook.\n",
             comparison_section="## Quarter-over-Quarter Comparison\nUp 5%.\n",
-            disagreements=["✅ All analysts aligned."],
+            disagreements=["All analysts aligned."],
             company_name="NeutralCorp",
             quarter_label="Q1 FY2024",
         )

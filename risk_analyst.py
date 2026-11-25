@@ -94,7 +94,7 @@ def scan_risk_signals(text: str) -> List[Dict[str, Any]]:
 # Tool 2 – Score and rank risks, format report
 # ══════════════════════════════════════════════════════════════
 
-_SEVERITY_LABEL = {1: "LOW ⚪", 2: "MEDIUM 🟡", 3: "HIGH 🔴"}
+_SEVERITY_LABEL = {1: "LOW", 2: "MEDIUM", 3: "HIGH"}
 
 
 def score_and_rank_risks(
@@ -124,13 +124,13 @@ def score_and_rank_risks(
     red_flags = []
     gm = figures.get("gross_margin", {}).get("value")
     if gm is not None and gm < 30:
-        red_flags.append(f"⚠ Gross margin ({gm:.1f}%) below 30% threshold – margin under pressure.")
+        red_flags.append(f"WARNING: Gross margin ({gm:.1f}%) below 30% threshold – margin under pressure.")
     om = figures.get("operating_margin", {}).get("value")
     if om is not None and om < 10:
-        red_flags.append(f"⚠ Operating margin ({om:.1f}%) below 10% – limited operating leverage.")
+        red_flags.append(f"WARNING: Operating margin ({om:.1f}%) below 10% – limited operating leverage.")
     yoy = figures.get("yoy_growth", {}).get("value")
     if yoy is not None and yoy < 0:
-        red_flags.append(f"⚠ Revenue declined {abs(yoy):.1f}% YoY – contraction signal.")
+        red_flags.append(f"WARNING: Revenue declined {abs(yoy):.1f}% YoY – contraction signal.")
 
     if red_flags:
         lines.append("**Financial Red Flags (from extracted figures):**")
@@ -152,11 +152,11 @@ def score_and_rank_risks(
     high_count = sum(1 for s in seen_cats.values() if s["severity"] == 3)
     med_count  = sum(1 for s in seen_cats.values() if s["severity"] == 2)
     if high_count >= 2:
-        overall = "🔴 HIGH RISK – Multiple high-severity signals detected."
+        overall = "HIGH RISK – Multiple high-severity signals detected."
     elif high_count == 1 or med_count >= 2:
-        overall = "🟡 MODERATE RISK – Watch key risk areas."
+        overall = "MODERATE RISK – Watch key risk areas."
     else:
-        overall = "🟢 LOW RISK – No major red flags identified."
+        overall = "LOW RISK – No major red flags identified."
 
     lines.append(f"**Overall Risk Assessment:** {overall}")
     lines.append("")

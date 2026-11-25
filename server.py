@@ -464,13 +464,13 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   <!-- Pattern Navigation Tabs -->
   <nav class="tabs-bar">
     <button class="tab-btn active" onclick="switchTab('deskTab', this)">
-      <span>📊</span> Real-Time Analysis Desk
+      <span>[Desk]</span> Real-Time Analysis Desk
     </button>
     <button class="tab-btn" onclick="switchTab('archTab', this)">
-      <span>🏛️</span> Multi-Agent Pattern Architecture
+      <span>[Architecture]</span> Multi-Agent Pattern Architecture
     </button>
     <button class="tab-btn" onclick="switchTab('groqTab', this)">
-      <span>⚡</span> Groq LLM Cloud Diagnostics
+      <span>[LLM]</span> Groq LLM Cloud Diagnostics
     </button>
   </nav>
 
@@ -481,7 +481,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         <!-- Input Form -->
         <div class="card">
           <div class="card-header">
-            <div class="card-title"><span>📥</span> Document Ingestion</div>
+            <div class="card-title">Document Ingestion</div>
             <button type="button" class="btn-link" onclick="loadSampleReport()">Load Sample Q3</button>
           </div>
 
@@ -515,7 +515,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
             <button type="submit" id="submitBtn" class="btn-primary">
               <div class="spinner" id="spinner"></div>
-              <span id="btnText">🚀 Execute 6-Agent Synthesis</span>
+              <span id="btnText">Execute 6-Agent Synthesis</span>
             </button>
           </form>
         </div>
@@ -523,7 +523,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         <!-- Output Deliverable -->
         <div class="card">
           <div class="card-header">
-            <div class="card-title"><span>📑</span> Sell-Side Note & Audits</div>
+            <div class="card-title">Sell-Side Note & Audits</div>
             <span id="traceCounter" style="font-size:0.75rem; font-family:var(--mono); color:var(--text-dim);">Ready</span>
           </div>
 
@@ -560,7 +560,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
           <!-- Deliverable Viewer -->
           <div class="deliverable-box" id="noteOutput">
             <div style="text-align:center; padding: 4rem 1rem; color:var(--text-dim);">
-              <div style="font-size:2.5rem; margin-bottom:0.75rem; opacity:0.4;">📊</div>
+              <div style="font-size:2.5rem; margin-bottom:0.75rem; opacity:0.4;">[Desk]</div>
               <div>Click <strong>Execute 6-Agent Synthesis</strong> to run the full pipeline with grounded RAG & Groq LLM integration.</div>
             </div>
           </div>
@@ -619,7 +619,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
             <h2 style="font-size:1.3rem;">Groq Cloud LLM Status</h2>
             <p style="color:var(--text-muted); font-size:0.85rem;">Live verification of Groq API connection and available production models.</p>
           </div>
-          <button class="btn-primary" style="width:auto; padding:0.6rem 1.25rem;" onclick="testGroqLive()">⚡ Ping Groq API</button>
+          <button class="btn-primary" style="width:auto; padding:0.6rem 1.25rem;" onclick="testGroqLive()">Ping Groq API</button>
         </div>
 
         <div class="groq-box" id="groqDiagnostics">
@@ -656,7 +656,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
         const res = await fetch('/api/groq-status');
         const data = await res.json();
         box.innerHTML = `
-<div style="color:#10b981; font-weight:700; margin-bottom:0.5rem;">✅ Connection Status: ${data.status}</div>
+<div style="color:#10b981; font-weight:700; margin-bottom:0.5rem;">Connection Status: ${data.status}</div>
 <div><strong>Active Model:</strong> ${data.model}</div>
 <div><strong>API Key Detected:</strong> ${data.key_masked}</div>
 <div><strong>Live Inference Test:</strong> "${data.sample_response}"</div>
@@ -739,7 +739,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
       } finally {
         submitBtn.disabled = false;
         spinner.style.display = 'none';
-        btnText.textContent = '🚀 Execute 6-Agent Synthesis';
+        btnText.textContent = 'Execute 6-Agent Synthesis';
       }
     });
 

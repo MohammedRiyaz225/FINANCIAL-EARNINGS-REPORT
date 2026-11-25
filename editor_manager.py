@@ -67,28 +67,28 @@ def detect_disagreements(
 
     if rev_sent == "POSITIVE" and risk_sent == "NEGATIVE":
         disagreements.append(
-            "⚠ DISAGREEMENT: Revenue Analyst reports STRONG revenue, but Risk Analyst "
+            "DISAGREEMENT: Revenue Analyst reports STRONG revenue, but Risk Analyst "
             "flags HIGH risk – investors should scrutinise cost structure and demand quality."
         )
     if out_sent == "POSITIVE" and risk_sent == "NEGATIVE":
         disagreements.append(
-            "⚠ DISAGREEMENT: Outlook Analyst is BULLISH on guidance while Risk Analyst "
+            "DISAGREEMENT: Outlook Analyst is BULLISH on guidance while Risk Analyst "
             "identifies material risks – forward guidance may be overly optimistic."
         )
     if rev_sent == "NEGATIVE" and out_sent == "POSITIVE":
         disagreements.append(
-            "⚠ DISAGREEMENT: Revenue Analyst signals DECLINING revenue but Outlook Analyst "
+            "DISAGREEMENT: Revenue Analyst signals DECLINING revenue but Outlook Analyst "
             "is POSITIVE – verify that guidance is not extrapolating a one-off recovery."
         )
     if risk_sent == "POSITIVE" and out_sent == "NEGATIVE":
         disagreements.append(
-            "⚠ DISAGREEMENT: Risk profile appears LOW, but Outlook Analyst is CAUTIOUS – "
+            "DISAGREEMENT: Risk profile appears LOW, but Outlook Analyst is CAUTIOUS – "
             "management may be sandbagging guidance."
         )
 
     if not disagreements:
         disagreements.append(
-            "✅ All three analysts are broadly aligned – no material disagreements detected."
+            "All three analysts are broadly aligned – no material disagreements detected."
         )
 
     return disagreements

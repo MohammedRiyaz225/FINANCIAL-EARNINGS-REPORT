@@ -153,10 +153,10 @@ def format_revenue_commentary(metrics: Dict[str, Any], figures: Dict[str, Any]) 
     # Overall assessment
     assessment = metrics.get("revenue_assessment", "N/A")
     assessment_color_map = {
-        "STRONG": "🟢 STRONG",
-        "MODERATE": "🟡 MODERATE",
-        "FLAT/SOFT": "🟠 FLAT/SOFT",
-        "DECLINING": "🔴 DECLINING",
+        "STRONG": "STRONG",
+        "MODERATE": "MODERATE",
+        "FLAT/SOFT": "FLAT/SOFT",
+        "DECLINING": "DECLINING",
     }
     lines.append(f"**Revenue Assessment:** {assessment_color_map.get(assessment, assessment)}")
     lines.append("")

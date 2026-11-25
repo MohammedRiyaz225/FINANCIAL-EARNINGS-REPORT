@@ -135,11 +135,11 @@ def assess_guidance_quality(guidance_data: Dict[str, Any]) -> str:
     if total_signals == 0:
         tone = "NEUTRAL – Insufficient forward-looking language."
     elif pos_cnt > caut_cnt * 1.5:
-        tone = f"🟢 BULLISH – {pos_cnt} positive vs. {caut_cnt} cautious signals."
+        tone = f"BULLISH – {pos_cnt} positive vs. {caut_cnt} cautious signals."
     elif caut_cnt > pos_cnt * 1.5:
-        tone = f"🔴 CAUTIOUS – {caut_cnt} cautious vs. {pos_cnt} positive signals."
+        tone = f"CAUTIOUS – {caut_cnt} cautious vs. {pos_cnt} positive signals."
     else:
-        tone = f"🟡 MIXED – {pos_cnt} positive and {caut_cnt} cautious signals."
+        tone = f"MIXED – {pos_cnt} positive and {caut_cnt} cautious signals."
 
     lines.append(f"**Management Tone:** {tone}")
     lines.append("")
@@ -154,11 +154,11 @@ def assess_guidance_quality(guidance_data: Dict[str, Any]) -> str:
 
     # Overall outlook rating
     if pos_cnt >= 3 and caut_cnt <= 1:
-        rating = "POSITIVE OUTLOOK 🟢"
+        rating = "POSITIVE OUTLOOK"
     elif caut_cnt >= 3:
-        rating = "CAUTIOUS OUTLOOK 🔴"
+        rating = "CAUTIOUS OUTLOOK"
     else:
-        rating = "NEUTRAL / MIXED OUTLOOK 🟡"
+        rating = "NEUTRAL / MIXED OUTLOOK"
 
     lines.append(f"**Outlook Rating:** {rating}")
     lines.append("")
